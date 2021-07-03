@@ -1,0 +1,135 @@
+Victoria Latynina
+
+I'm an NLP Engineer from Saint Petersburg with 3 years of experience in industry.
+
+# 📩 Contact information
+
+Birthdate 14.09.1996
+
+📧 **Email address:** v.latynina46@gmail.com
+
+📞 **Phone:** 8-(981)-741-44-60
+
+🔗 **LinkedIn:** [https://www.linkedin.com/in/latynina-46/](https://www.linkedin.com/in/latynina-46/)
+
+▪️**Github**: [https://github.com/Alea4jacta6est](https://github.com/Alea4jacta6est)
+
+🌎 **Address:** Saint Petersburg, Russian Federation 
+
+---
+
+# **👩🏻‍💻** Professional Experience
+
+### EPAM Systems, Saint Petersburg, Russia
+
+***Data Scientist & NLP Engineer (2019-2021)***
+
+- Accelerate the job of consultants in legal domain using ML on unstructured documents of different extensions
+- Work on a full cycle of creating NLP models for production use (NER and classification tasks)
+- Lead the team of 4 people to build POC for AI system using SOTA NLP methods
+- Daily interact with customers to understand the domain better
+- Make numerous experiments using different embeddings (Glove, ELMo, FasText, DistilBERT)
+- Scale POC for production use creating pipelines for
+multiple languages (English, German, French, Chinese, Spanish,
+Portuguese and Russian)
+- Build a search engine prototype using multiple approaches (TF-IDF, BERT)
+- Use Elastic Search to make search app scalable
+
+***Parttime Lecturer (2019-2021)***
+
+- Python course organization
+- Delivering lectures to hundreds of students
+- Students interviewing
+- Students mentoring
+
+***Python Developer & Software Engineer (2019)***
+
+- Rewriting parts of a deep reinforcement learning algorithm to integrate with customer services in Life Science
+- Developing a Back-end part of the application
+
+---
+
+# 🛠 Skills
+
+## Programming languages:
+
+- **Python ⭐️⭐️⭐️⭐️**
+
+    Libraries that I regularly use: 
+
+    - DS (NLP) related: spacy, numpy, sklearn, pandas, flair, nltk, networkx, matplotlib, seaborn, pytorch, transformers etc.
+    - Web: flask, celery, streamlit
+    - Testing: pytest, unittest sometimes
+
+    Linters and formatters I love: Flake8, yapf, isort
+
+- **R ⭐️⭐️**
+
+    Tried R basics course from Bioinformatics Institute
+
+- C++**⭐️**
+
+## 💻 Technology
+
+- Docker / Docker-compose ⭐️⭐️⭐️
+
+    Daily usage, I keep in docker all the apps I've ever created
+
+- Bash ⭐️⭐️⭐️
+
+    Daily usage
+
+- Data Science (mainly NLP) **⭐️⭐️⭐️⭐️**
+
+    Data Mining and Preprocessing
+
+    Large expertise in NLP (Classification, Named Entity Recognition, Search Engines, Chatbots)
+
+- Git ⭐️⭐️⭐️
+
+    Daily usage in a team, using git hooks
+
+- DVC ⭐️⭐️
+
+    Able to create reproducible pipelines
+
+- MLFlow ⭐️
+
+### Maths
+
+Linear Algebra ⭐️
+
+Calculus ⭐️
+
+Probability theory / Combinatorics ⭐️
+
+---
+
+## 🗣 Languages
+
+[Knowledge of different languages](https://www.notion.so/c9cc190c83694247bdff6498027e9cad)
+
+---
+
+# 👩🏻‍🎓 Education
+
+### Bard College (2016-2019)
+
+*Degree Name: Bachelor's degree 
+    Field Of Study: Computer Science and Artificial Intelligence*
+
+### Saint Petersburg State University (2016-2019)
+
+*Degree Name: Bachelor's degree 
+    Field Of Study: Computer science and Artificial Intelligence*
+
+### Kuban State University (2014-2016)
+
+*Degree Name: Bachelor's degree 
+    Field Of Study: French Language and Literature*
+
+# 📚 Self-education
+
+Stepik account with certificates: [https://stepik.org/users/25555899](https://stepik.org/users/25555899)
+
+Datacamp, Coursera and other certificates can be found in my Linkedin profile
