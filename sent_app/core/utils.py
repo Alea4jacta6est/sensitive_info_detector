@@ -14,25 +14,38 @@ nlp = spacy.load("en_core_web_trf")
 
 def has_birthdate(text):
     result = re.findall(birthdate_regex, text)
+    print("Caught some DOBs:", result)
     if result:
         return True
     return False
 
 def classify_text_by_ents(text):
+    """The function that predicts entities for a given text,
+    renders an html with entities using displacy and 
+    prescribes how to classify the text based on entities
+
+    Args:
+        text (str): any textual data
+
+    Returns:
+        label, html: Sensitive/not sensitive label, a displacy-generated html
+    """
     doc = nlp(text)
     html = displacy.render(doc, style="ent")
     ents_dict = {}
     for ent in doc.ents:
         ents_dict[ent.label_] = ent.text
+
     # Business logic
     if "PERSON" in ents_dict:
-        return "Sensitive", html
+        label, html = "Sensitive", html
     elif "GPE" in ents_dict and set(ents_dict["GPE"]).intersection(cities):
-        return "Sensitive", html
+        label, html = "Sensitive", html
     elif has_birthdate(doc.text):
-        return "Sensitive", html
+        label, html = "Sensitive", html
     else:
-        return "Not sensitive", html
+        label, html = "Not sensitive", html
+    return label, html
 
 def extract_text_data(root_folder_or_path="data/"):
     """Opens txt files, returns texts

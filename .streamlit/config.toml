@@ -1,0 +1,12 @@
+[server]
+port = 4200
+
+[browser]
+serverAddress = "localhost"
+
+[theme]
+primaryColor="#49a3e0"
+backgroundColor="#FFFFFF"
+secondaryBackgroundColor="#f0f2f6"
+textColor="#262730"
+font="sans serif"
