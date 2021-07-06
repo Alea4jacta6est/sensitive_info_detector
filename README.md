@@ -25,7 +25,9 @@ By default you can access the app here: http://localhost:4200/
 This tool extracts:
 
 o	Swiss City Names (first all GPEs using spacy default model, then checks whether the location is from Switzerland)
+
 o	Private Names (extract all PERSON tags)
+
 o	Birth Dates (regexp that finds different dates)
 
 and makes a conclusion about content sensitivity. 
